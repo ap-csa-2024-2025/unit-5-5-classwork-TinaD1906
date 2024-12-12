@@ -28,5 +28,11 @@ public class Main
     p1.setX(in_x);
     p1.setY(in_y);
 
+
+    String str = new String("hello");
+    Point2D p = new Point2D();
+
+    System.out.println(str);
+    System.out.println(p);
   }
 }
