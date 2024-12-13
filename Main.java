@@ -5,6 +5,19 @@ public class Main
   public static void main(String[] args)
   {
     Scanner sc = new Scanner(System.in);
+    Oven v = new Oven();
+    System.out.println("Maximum oven temperature");
+    int maxTemp = sc.nextInt();
+
+    System.out.println("Starting temperature of the oven");
+    int currentTemp = sc.nextInt(); 
+    
+     
+
+
+
+
+    Scanner sc = new Scanner(System.in);
     Person p = new Person();
     System.out.println("Enter the person's first name:");
     String firstName = sc.nextLine();
